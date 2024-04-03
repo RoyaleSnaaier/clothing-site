@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Scrollbar Styles */
+.container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* Firefox scrollbar */
+.container {
+    scrollbar-width: thin;
+    scrollbar-color: #aaa #f1f1f1;
+}
+
+/* Firefox scrollbar track */
+.container {
+    background-color: #f1f1f1;
+}
+
+/* Firefox scrollbar thumb */
+.container::-moz-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+/* Firefox scrollbar thumb on hover */
+.container::-moz-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 500px; /* Set maximum height */
+    
+    /* Add these lines to center the container */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.add-product-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.add-product-button:hover {
+    background-color: #45a049;
+}
+.action-links a {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+/* Style for form sections */
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+/* Style for submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styling for overall form layout */
+
+.success-message {
+    text-align: center;
+    color: green; /* Change to the color you want */
+    background-color: #e8f5e9; /* Change to the color you want */
+    border: 1px solid #c8e6c9; /* Change to the color you want */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
